@@ -1,3 +1,5 @@
+#July12 issue with pushing to heroku with DB name changes(?)
+
 default: &default
   adapter: postgresql
   encoding: unicode
