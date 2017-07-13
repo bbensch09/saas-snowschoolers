@@ -7,14 +7,14 @@ default: &default
 
 development:
   <<: *default
-  database: snowschoolers_development
+  database: saas_snowschoolers_development
 
 test:
   <<: *default
-  database: snowschoolers_test
+  database: saas_snowschoolers_test
 
 production:
   <<: *default
-  database: snowschoolers_development
+  database: saas_snowschoolers_development
   # username: snowschoolers
   # password: bb4ss109
